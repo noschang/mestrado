@@ -1,0 +1,108 @@
+Valderi:
+
+- Precisa embasar melhor o MQTT. Por que usar o MQTT? Qual versão?
+
+- Precisa descrever melhor a parte de segurança. 
+
+- Privacidade dos dados. Como vai funcionar?
+
+- Em se tratando de brinquedos tem que tratar sobre os assuntos de segurança
+
+- Como lidar com situações em que não há Internet? Se prender ao Wi-Fi é pouco.
+  Investigar a possibilidade com o bluetooth
+  
+- Definição de requisitos mínimos necessários:
+
+  - Qual a quantidade de mensagens enviadas e recebidas?
+
+  - Qual a quantidade de pacotes?
+
+- Bruno e Gabriel, alunos da engenharia podem ajudar
+
+Alejandro:
+
+- O problema do trabalho está na fundamentação teórica das escolhas feitas
+
+- Analisar as alternativas de hardware, justificar.
+  Por que não considerou o bluetooth? Pesquisa mais séria de por que escolher estas tecnologias
+  Por que Wi-Fi e não bluetooth?
+
+- Hipótese: Foco na conectividade. Vai conseguir a característica de conectividade?
+  Comunicação sem erros? Latência? Ter métricas. Estimar consumo de energia.
+  O quanto a inclusão do módulo impacta no consumo de energia?
+  
+- Revisão sistemática. Critérios de exclusão. Vai ajudar muito
+
+- ESP01 e MQTT são fundamentação teórica
+
+- Riscos: problemas de segurança, latência.
+  Será que vou conseguir uma comunicação sem erros?
+  E se falhar a comunicação Wi-Fi?
+  
+- Bons trabalhos relacionados trarão métricas nesse sentido.
+  Definir palavras chaves
+  
+- Aproveitar o estudo de caso para ver se já alcançou os resultados esperados
+
+Rudimar:
+
+- O foco estava muito no RoPE, tanto no texto quanto na apresentação
+
+- Passa a sensação para o leitor de que eu vou implementar IA, processamento de fala, etc
+  Não criar expectativa no leitor
+  
+- Pergunta de pesquisa desfocada: não pode ser muito abstrata. Cada um tem uma interpretação
+
+- Problemas de formatação, referência, uso de tabelas
+
+- No término do capítulo de fundamentação. Onde está a sustentação das escolhas?
+
+- Trabalhos que usam protocolos similares são trabalhos relacionados.
+  O objetivo dos trabalhos similares é dar sustentação para o meu trabalho
+  
+- Módulo é amplamente usado em IoT. Mostrar trabalhos que fundamentam isso, que provam isso
+
+- Tem que fortalecer as justificativas dos módulos
+
+- Por que vou usar as coisas e como vou usar as coisas
+
+- Dar uma olhada na LGPD
+
+
+
+
+Raabe:
+
+Valderi
+- parabenizou pelo trabalho, pelo texto e pela apresentação
+- demonstra maturidade
+- na parte técnica tem sugestões
+- justificativa técnica ok, mas falta a científica
+- não apresentou a fundamentação da escolha do MQTT
+* quais os critérios que levaram a escolha do MQTT sugeriu fazer como no processador
+- Recomendou que seja incluida alguma discussão sobre segurança e privacidade dos dados
+- fundamentar melhor a escolha do módulo. 
+- trabalhos futuros: cenários sem wi-fi com outras formas de comunicar
+* parte de rede e segurança e IoT está fraco
+
+Alejandro
+- O trabalho é muito bonito e foi bem apresentado
+- concorda com Valderi
+- escolha do módulo não está bem fundamentada
+- porque wi-fi e não bluetooth (não está claro)
+- sugeriu trocar hipotese, não focando em custo mas sim em conectividade com métricas
+* faltou o protocolo da RSL. Seção de similares esta fraca
+- estranhou não terem riscos
+- estimar consumo de energia, perda de pacotes,
+
+
+Rudimar
+- concorda com colacações dos anteriores
+- texto tem muito foco no passado e nem tanto no futuro
+* cuidado ao gerar expectativa em relação a IA e VC etc ( culpa do meu texto)
+- problemas de formatação diversos
+- capitulo de fundamentação não deixa claro o que será usado. 
+- Não há justificativa das escolhas 
+- reforçou a falta dos trabalhos relacionados
+- elogiou a especificação
+- não entendeu a especificação do estudo de caso do tecladinho
